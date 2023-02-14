@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In System</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class=" container py-5 text-center">
+            <div class="w-75 group p-5 my-5 m-auto">
+                <form>
+                    <h1 class=" text-info">Smart Log In System</h1>
+                    <input type="text" placeholder="Enter Your Email"
+                        name="email" class="my-3 form-control bg-transparent
+                        text-white" id="email">
+                    <input type="password" placeholder="Enter Your Password"
+                        name="password" class="my-3 form-control bg-transparent
+                        text-white" id="password">
+                    <p class="text-danger d-none" id="requiredInput">All Inputs
+                        is Required</p>
+                    <p class="text-danger d-none" id="invalidLogIn">Incorrect
+                        User Name or Password</p>
+                    <p class="text-info d-none" id="success">Success</p>
+                    <button type="submit" class="w-100 btn btn-outline-info my-5
+                        p-2" id="logIn">Log In</button>
+                    <p class="fs-5 text-white">Don't have Account? <a
+                            href="./SignUp.html" class="text-white
+                            text-decoration-none">SignUp</a></p>
+                </form>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>

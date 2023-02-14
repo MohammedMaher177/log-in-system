@@ -1,0 +1,10 @@
+body{
+    background-color: #24353f;
+}
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+a:hover{
+    text-decoration: underline !important;
+}

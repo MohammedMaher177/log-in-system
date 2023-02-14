@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In System</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class=" container py-5 text-center">
+            <div class="w-75 group p-5 my-5 m-auto">
+                <form>
+                    <h1>Smart Log In System</h1>
+                    <input type="text" placeholder="Enter Your Name" name="name"
+                        class="my-3 form-control bg-transparent text-white"
+                        id="name">
+                    <input type="text" placeholder="Enter Your Email"
+                        name="email" class="my-3 form-control bg-transparent
+                        text-white" id="email">
+                    <input type="password" placeholder="Enter Your Password"
+                        name="password" class="my-3 form-control bg-transparent
+                        text-white" id="password">
+                        <p class=" text-danger d-none" id="reiterationEmail">email already exist</p>
+                        <p class=" text-danger d-none" id="requiredInput">All Input is required</p>
+                        <p class=" text-success d-none" id="success">success</p>
+                    <button type="submit" class="w-100 btn btn-outline-info my-5
+                        p-2" id="signup">Sign Up</button>
+                    <p class="fs-5 text-white">You have Account? <a
+                            href="./index.html" class="text-white
+                            text-decoration-none">SignIn</a></p>
+                </form>
+            </div>
+        </div>
+        <script src="js/singUp.js"></script>
+    </body>
+</html>
